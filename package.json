@@ -1,0 +1,31 @@
+{
+  "name": "request.io",
+  "version": "1.0.0",
+  "description": "a socket library like request base socket.io.",
+  "main": "./bin/www",
+  "scripts": {
+    "build": "tsc",
+    "server": "node ./dist/example/server.js",
+    "client": "node ./dist/example/client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/kimver/Request.io.git"
+  },
+  "keywords": [
+    "request",
+    "request.io",
+    "socket.io"
+  ],
+  "author": "zhuziyu",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.0.1",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^1.4.30",
+    "@types/socket.io-client": "^1.4.30"
+  }
+}
